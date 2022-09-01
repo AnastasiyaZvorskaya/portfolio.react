@@ -75,6 +75,7 @@ hr {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.5), 0 10px 10px rgba(0,0,0,0.65);
 
 }
 
@@ -188,8 +189,8 @@ hr {
 .footer {
     display: flex;
     flex-direction: column;
-    width: 345px;
-    margin: 114px 300px 0 300px;
+    width: 700px;
+    margin: 114px 100px 0 100px;
 
 }
 
@@ -199,12 +200,13 @@ hr {
     line-height: 42px;
     text-align: center;
     color: #070707;
-    margin: 0 0 30px 0;
+    margin: 0 0 30px 50px;
 }
 
 .network_img {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-left: 80px;
 }
 
 .foofer_text {
@@ -213,19 +215,25 @@ hr {
     line-height: 22px;
     text-align: center;
     color: #070707;
-    margin: 0 0 30px 0;
+    margin: 0 0 30px 65px;
 }
 
 .footer_btn {
     width: 180.5px;
     height: 42px;
     border-radius: 30px;
-    margin-left: 80px;
+    margin-left: 305px;
     margin-bottom: 15px;
     background: #070707;
     color: #FFFFFF;
+     
 }
 
+.footer_btn:hover {
+box-shadow: 4px 4px white, 6px 6px rgb(56, 53, 35);
+top: -40px;
+left: -40px;
+}
 .footer_network {
     font-family: 'Gilroy-Medium';
     font-size: 14px;
@@ -233,6 +241,41 @@ hr {
     text-align: center;
     color: #828282;
     margin-top: 45px;
+    margin-left: 95px;
+}
+.textarea {
+    margin-left: 290px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.4);
+}
+
+.img_user{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+}
+.text_new {
+    border-radius: 20px;
+    padding: 5px;
+    width: 70%;
+    height: 80px;
+    border: 1px solid black;
+   /*  margin-left: 70px; */
+    margin-bottom: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+}
+.newPost{
+    display: flex;
+}
+.timeFooter{
+    color: #070707;
+
 }
 
 /* раздел скилов */
@@ -313,6 +356,7 @@ hr {
     height: 220px;
     border: #070707 1px solid;
     border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .img_portfolio_one:hover {
@@ -321,6 +365,7 @@ hr {
     width: 400px;
     height: 545px;
     border: #070707 1px solid;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
 
@@ -332,6 +377,7 @@ hr {
     height: 220px;
     border: #070707 1px solid;
     border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .img_portfolio_two:hover {
@@ -340,6 +386,7 @@ hr {
     width: 375px;
     height: 550px;
     border: #070707 1px solid;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
 
@@ -351,6 +398,7 @@ hr {
     height: 220px;
     border: #070707 1px solid;
     border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .img_portfolio_three:hover {
@@ -359,6 +407,7 @@ hr {
     width: 400px;
     height: 560px;
     border: #070707 1px solid;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .img_portfolio_four {
@@ -369,6 +418,7 @@ hr {
     height: 220px;
     border: #070707 1px solid;
     border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .img_portfolio_four:hover {
@@ -377,6 +427,7 @@ hr {
     width: 400px;
     height: 560px;
     border: #070707 1px solid;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .portfolio_text {
@@ -400,23 +451,3 @@ hr {
     margin-left: -50px;
 }
 
-.textarea {
-    margin-left: 75px;
-    border: 3px solid black;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-.text_btn {
-    border-radius: 20px;
-    padding: 5px;
-    width: 200px;
-    height: 100%;
-    border: 1px solid black;
-    margin-left: 70px;
-    margin-bottom: 15px;
-
-    
-
-}
