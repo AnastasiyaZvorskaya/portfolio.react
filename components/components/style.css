@@ -1,0 +1,458 @@
+button {
+    cursor: pointer;
+}
+
+.home {
+    width: 945px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    padding: 0;
+
+
+}
+
+.link_navBar {
+    list-style-type: none;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #828282;
+}
+
+hr {
+    width: 940.6px;
+    border: 1px solid #828282;
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+
+.text {
+    /* позиционирование блока */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 945px;
+    margin: 0;
+}
+
+.text_name {
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    margin: 0;
+}
+
+.text_skill {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin: 0;
+    margin-top: 65px;
+}
+
+.text_language {
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+    margin: 0;
+    margin-top: 45px;
+}
+
+.photo {
+    position: relative;
+    width: 940px;
+    height: 387px;
+    border-radius: 20px;
+    background-image: url("/src/Image/background.jpg");
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.5), 0 10px 10px rgba(0,0,0,0.65);
+
+}
+
+/*мерцание звезд*/
+.star {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 50px;
+    animation: star 2.5s ease-in infinite;
+}
+
+.star1 {
+    background: url("../Image/star3.png") no-repeat center center;
+    top: 15px;
+    left: 55px;
+}
+
+.star2 {
+    top: 22px;
+    left: 135px;
+    background: url("../Image/star3.png") no-repeat center center;
+    animation-delay: .8s;
+}
+
+.star3 {
+    top: 55px;
+    left: 100px;
+    background: url("../Image/star3.png") no-repeat center center;
+    animation-delay: 1.7s;
+}
+
+.star4 {
+    top: 75px;
+    left: 150px;
+    background: url("../Image/star3.png") no-repeat center center;
+    animation-delay: 1.1s;
+}
+
+.star5 {
+    top: 100px;
+    left: 30px;
+    background: url("../Image/star3.png") no-repeat center center;
+    animation-delay: 1.9s;
+}
+
+.star6 {
+    top: 15px;
+    left: 200px;
+    background: url("../Image/star3.png") no-repeat center center;
+    animation-delay: 1.1s;
+}
+
+.star7 {
+    top: 120px;
+    left: 80px;
+    background: url("../Image/star3.png") no-repeat center center;
+    animation-delay: 1.9s;
+}
+
+@keyframes star {
+    10% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+}
+
+/* мерцание звезд the end*/
+
+.text_my_photo {
+    font-family: 'Gilroy-Bold';
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 100px;
+    text-align: center;
+    color: #828282;
+    transform: rotate(-15deg);
+    margin-top: 70px;
+    margin-left: 110px;
+}
+
+.about {
+    width: 943px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_name {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.about_text {
+    width: 485px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+/* футер позиционирование и размеры */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 114px 100px 0 100px;
+
+}
+
+.footer_contact {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin: 0 0 30px 50px;
+}
+
+.network_img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+}
+
+.foofer_text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin: 0 0 30px 65px;
+}
+
+.footer_btn {
+    width: 180.5px;
+    height: 42px;
+    border-radius: 30px;
+    margin-left: 305px;
+    margin-bottom: 15px;
+    background: #070707;
+    color: #FFFFFF;
+     
+}
+
+.footer_btn:hover {
+box-shadow: 4px 4px white, 6px 6px rgb(56, 53, 35);
+top: -40px;
+left: -40px;
+}
+.footer_network {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-top: 45px;
+    margin-left: 95px;
+}
+.textarea {
+    margin-left: 290px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.4);
+}
+
+.img_user{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+}
+.text_new {
+    border-radius: 20px;
+    padding: 5px;
+    width: 70%;
+    height: 80px;
+    border: 1px solid black;
+   /*  margin-left: 70px; */
+    margin-bottom: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+}
+.newPost{
+    display: flex;
+}
+.timeFooter{
+    color: #070707;
+
+}
+
+/* раздел скилов */
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    width: 945px;
+}
+
+.skills {
+    width: 945px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 70px;
+}
+
+.skills_text {
+    width: 945px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 87px;
+}
+
+.skills_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 167px;
+    height: 207px;
+}
+
+.skills_name {
+
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.skill_star {
+    display: flex;
+    width: 167px;
+    justify-content: space-around;
+}
+
+.portfolio_name {
+    width: 945px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+/* раздел портфолио */
+.img {
+
+    display: flex;
+    justify-content: space-between;
+    width: 945px;
+    margin-top: 50px;
+}
+
+.img_portfolio_one {
+    background-image: url('../Image/s1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 220px;
+    border: #070707 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.img_portfolio_one:hover {
+    background-image: url('../Image/s2.png');
+    background-size: 100%;
+    width: 400px;
+    height: 545px;
+    border: #070707 1px solid;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.img_portfolio_two {
+    background-image: url('../Image/s.5.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 220px;
+    border: #070707 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.img_portfolio_two:hover {
+    background-image: url('../Image/s.5.5.png');
+    background-size: 100%;
+    width: 375px;
+    height: 550px;
+    border: #070707 1px solid;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.img_portfolio_three {
+    background-image: url('../Image/s5.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 220px;
+    border: #070707 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.img_portfolio_three:hover {
+    background-image: url('../Image/s5.png');
+    background-size: 100%;
+    width: 400px;
+    height: 560px;
+    border: #070707 1px solid;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.img_portfolio_four {
+    background-image: url('../Image/s3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 220px;
+    border: #070707 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.img_portfolio_four:hover {
+    background-image: url('../Image/s3.png');
+    background-size: 100%;
+    width: 400px;
+    height: 560px;
+    border: #070707 1px solid;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.portfolio_text {
+    font-family: 'Gilroy-Bold';
+    font-size: 20px;
+    text-align: center;
+    color: #070707;
+    border: 1px solid #070707;
+    background-color: #e6d3b7;
+    border-radius: 40px;
+    transform: rotate(-20deg);
+    width: 100px;
+    padding: 10px;
+    margin-left: -70px;
+    margin-top: 30px;
+}
+
+.portfolio_text_small {
+    /* позиционирование и размер нижнего блока картинок */
+    width: 50px;
+    margin-left: -50px;
+}
+
+.link_navBar:active {
+    color: #ffff00; /* Цвет активных ссылок */
+   }
+
