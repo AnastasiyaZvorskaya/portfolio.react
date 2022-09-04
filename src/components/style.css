@@ -452,7 +452,7 @@ left: -40px;
     margin-left: -50px;
 }
 
-.link_navBar:active {
-    color: #ffff00; /* Цвет активных ссылок */
+a.active.link_navBar {
+    color: black; /* Цвет активных ссылок */
+    font-weight: bold;
    }
-
