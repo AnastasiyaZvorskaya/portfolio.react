@@ -30,9 +30,8 @@ const NavLinks = () => {
                 }
 
             </ul>
-        
-       
-    </>
+            <hr></hr>
+           </>
 
     )
 

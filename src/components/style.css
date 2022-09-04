@@ -28,6 +28,7 @@ hr {
     width: 940.6px;
     border: 1px solid #828282;
     margin-bottom: 40px;
+    margin-left: 0;
 }
 
 .text {
@@ -450,4 +451,8 @@ left: -40px;
     width: 50px;
     margin-left: -50px;
 }
+
+.link_navBar:active {
+    color: #ffff00; /* Цвет активных ссылок */
+   }
 

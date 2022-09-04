@@ -1,6 +1,5 @@
 import React from 'react';
 import NavLinks from '../components/NavLinks';
-/* import '../components/style.css'; */
 import Image from "../components/Image"
 
 
