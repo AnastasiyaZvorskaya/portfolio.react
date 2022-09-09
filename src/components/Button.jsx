@@ -33,10 +33,10 @@ function Button() {
 
     });
 
-  
+
     return (<div>
-        <textarea className='textarea' value={value} onChange={event => setValue(event.target.value)} />
-        <button className='footer_btn' onClick={handlerText}>Send message</button>
+            <textarea className='textarea' value={value} onChange={event => setValue(event.target.value)} />
+            <button className='footer_btn' onClick={handlerText}>Send message</button>
         <div>
             {addPost}
         </div>

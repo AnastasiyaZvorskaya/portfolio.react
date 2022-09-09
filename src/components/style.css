@@ -223,7 +223,7 @@ hr {
     width: 180.5px;
     height: 42px;
     border-radius: 30px;
-    margin-left: 305px;
+    margin-left: 300px;
     margin-bottom: 15px;
     background: #070707;
     color: #FFFFFF;
@@ -456,3 +456,4 @@ a.active.link_navBar {
     color: black; /* Цвет активных ссылок */
     font-weight: bold;
    }
+
